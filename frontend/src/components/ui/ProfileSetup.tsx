@@ -28,7 +28,7 @@ const ProfileSetup = ({ onComplete }: ProfileSetupProps) => {
   };
 
   const fields = [
-    { key: "name",  label: "Full Name",           icon: User,     placeholder: "e.g. Kanishka Gupta",     type: "text"   },
+    { key: "name",  label: "Full Name",           icon: User,     placeholder: "e.g. Code Crew",     type: "text"   },
     { key: "role",  label: "Desired Role",         icon: Briefcase,placeholder: "e.g. Frontend Developer", type: "text"   },
     { key: "exp",   label: "Years of Experience",  icon: Calendar, placeholder: "e.g. 3",                  type: "number" },
   ];
@@ -214,5 +214,6 @@ const ProfileSetup = ({ onComplete }: ProfileSetupProps) => {
     </>
   );
 };
+
 
 export default ProfileSetup;
