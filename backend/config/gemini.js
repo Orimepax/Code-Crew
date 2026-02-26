@@ -82,7 +82,7 @@ async function getNextQuestion({ company, role, roundType, skills, conversation 
   const systemPrompt = buildSystemPrompt({ company, role, roundType, skills });
   const history = buildGeminiHistory(systemPrompt, conversation);
 
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
   // If no conversation yet, start the interview
   if (conversation.length === 0) {
