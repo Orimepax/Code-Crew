@@ -1,0 +1,21 @@
+{
+  "name": "code-crew",
+  "version": "1.0.0",
+  "description": "Ai Driven Mock Interview",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orimepax/Code-Crew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Orimepax/Code-Crew/issues"
+  },
+  "homepage": "https://github.com/Orimepax/Code-Crew#readme"
+}
